@@ -23,7 +23,6 @@ print "\nClose the current plot window to continue"
 
 # plt.show()
 
-
 # random edit
 
 # Question 11a: Plot three lines (parameters of your choosing)
