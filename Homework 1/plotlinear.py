@@ -1,5 +1,11 @@
 # plotlinear.py
-
+"""
+Homework 1: Sagar Samtani
+This script generates linear plots based on various parameters. It is based on Python 2.7.
+The first part of the script is the code provided by the instructor.
+The second part of the script answers question 11a. I generate three different lines and plot them on a graph and label them accordingly.
+The third part of the script was provided by the instructor. To ensure that the code runs smoothly, I have commented this part out.
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -21,12 +27,9 @@ for i in range(w0.shape[0]):
 
 print "\nClose the current plot window to continue"
 
-# plt.show()
+plt.show()
 
-# random edit
-
-# Question 11a: Plot three lines (parameters of your choosing)
-
+#############Question 11a: Plot three lines (parameters of your choosing)#############
 # defining the two points for the x-axis
 xAxis = np.array([-5, 5])
 
